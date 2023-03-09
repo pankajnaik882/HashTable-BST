@@ -34,10 +34,10 @@ namespace HastTableDemo
             hash.Add("13","situaions");
             string hash5 = hash.Get("5");
             Console.WriteLine("5th index value :" + hash5);
-            //hash.Remove("2");
-            //string hash2 = hash.Get("2");
+            hash.Remove("2");
+            string hash2 = hash.Get("2");
 
-            //Console.WriteLine("2th index value : " + hash2);
+            Console.WriteLine("2th index value : " + hash2);
         }  
     }
 }
