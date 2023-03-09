@@ -61,6 +61,10 @@ namespace HashTableDemo
                 Console.WriteLine(Parent.data + " ");
                 TraversePreorder(Parent.LeftNode);
                 TraversePreorder(Parent.RightNode);
+                Console.WriteLine(Parent.data + " ");
+                TraversePreorder(Parent.LeftNode);
+                TraversePreorder(Parent.RightNode);
+
             }
         }
     }
